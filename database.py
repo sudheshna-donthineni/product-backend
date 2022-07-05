@@ -1,10 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials, firestore
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
-print(os.getenv("FIREBASE_PROJECT_ID"))
 cred = credentials.Certificate(
     {
         "type": "service_account",

@@ -5,4 +5,3 @@ uvloop
 httptools
 pre-commit
 firebase-admin
-python-dotenv
