@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
+print(os.getenv("FIREBASE_PROJECT_ID"))
 cred = credentials.Certificate(
     {
         "type": "service_account",
