@@ -4,3 +4,4 @@ gunicorn
 uvloop
 httptools
 pre-commit
+firebase-admin
